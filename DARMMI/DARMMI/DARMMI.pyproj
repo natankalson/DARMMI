@@ -22,14 +22,47 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="analysis\graphs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="analysis\lifetimes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="analysis\molecules.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="analysis\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="DARMMI.py" />
+    <Compile Include="input\rawdata.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="input\sqlite3_db.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="input\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="output\sqlite3_db.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="output\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="processing\bonds.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="processing\general.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="processing\graphs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="processing\molecules.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="processing\reactions.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="processing\__init__.py">
